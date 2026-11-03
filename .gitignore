@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+.superinference/
+output/
+*.log
+# 权重、训练数据及现场身份配置不进仓库。
+checkpoints/**
+!checkpoints/pi0/
+!checkpoints/pi0/README.md
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.mcap
+.DS_Store
